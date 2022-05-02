@@ -61,6 +61,10 @@ a:hover{
 
 }
 
+ol, ul {
+	list-style: none;
+  }
+
 #footer {
 	
 	margin-top: 100px;
