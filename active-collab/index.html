@@ -2,14 +2,14 @@
 <html lang="ENG">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" src="style.css">
+        <link rel="stylesheet" href="style.css">
         <title></title>
     </head>
     <body>
         <header>
             <div class="menu">
                 <menu class="menu-gauche">
-                    <p><img src="active.collab.jpg" alt="logo"></p>
+                    <img src="img/logo.jpg" alt="logo">
                     <p>Features</p>
                     <p>Pricing</p>
                     <p>More +</p>
@@ -18,8 +18,8 @@
                     <p>Help & Support</p>
                     <p>Blog</p>
                     <p>Ressources</p>
-                    <p>Try it Free</p>
-                    <p>Sign In</p>
+                    <button>Try it Free</button>
+                    <button>Sign In</button>
                 </menu>
             </div>
             <div class="header">
@@ -29,24 +29,24 @@
         <main>
             <section class="intro">
                 <article>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="img/task-management.jpg" alt="Icon Task management">
+                    <h3>Task Management</h3>
+                    <p>Stay oranized with an advanced to-do list and track your project.</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="img/team-collaboration.jpg" alt="icon Team collaboration">
+                    <h3>Team collaboration</h3>
+                    <p>Efficiently work together with your team to deliver top-notch results.</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="img/time-tracking.jpg" alt="Icon Time Tracking">
+                    <h3>Time Tracking</h3>
+                    <p>Track every minute of your work and bill clients accordingly</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h3></h3>
-                    <p></p>
+                    <img src="img/invoicing.jpg" alt="Icon Invoicing">
+                    <h3>Invoicing</h3>
+                    <p>Easily issue invoices for your work, save time, and get paid.</p>
                 </article>
             </section>
             <section class="try-it">
@@ -56,43 +56,58 @@
                     <p>No credit card required, unsubscribe at any time.</p>
                 </article>
                 <article>
-                    <img src="" alt="">
+                    <img src="img/demo.png" alt="Service preview">
                 </article>
             </section>
             <section class="cloud">
-                <h2>On cloud or your server</h2>
-                <p>ActiveCollab runs in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30 days and then decide what works best for you.</p>
                 <article>
-                    <img src="" alt="">
-                    <h2>Monthly Plans</h2>
-                    <p>In the cloud<br>No setup required<br>Ready in 2 minutes</p>
-                    <button>Plans & Pricing</button>
-                    <p>from $25 / month</p>
+                    <h2>On cloud or your server</h2>
+                    <p>ActiveCollab runs in the cloud like most browser apps today, but you can also install it on your own server. Try it free for 30 days and then decide what works best for you.</p>
                 </article>
                 <article>
-                    <img src="" alt="">
-                    <h2>Self-Hosted</h2>
-                    <p>Install on your own server<br>Unlimited team members and storage<br>One free year of support and upgrades</p>
-                    <button>Learn more</button>
-                    <p>Pay once, use forever</p>
+                    <div>
+                        <img src="img/monthly-plan.jpg" alt="monthly-plan">
+                        <h2>Monthly Plans</h2>
+                        <p>In the cloud<br>No setup required<br>Ready in 2 minutes</p>
+                        <button>Plans & Pricing</button>
+                     <p>from $25 / month</p>
+                    </div>
+                    <div>
+                        <img src="img/self-hosted.jpg" alt="Self-Hosted">
+                        <h2>Self-Hosted</h2>
+                        <p>Install on your own server<br>Unlimited team members<br>One free year of support included</p>
+                        <button>Learn more</button>
+                        <p>one time fee - from $999</p>
+                    </div>    
                 </article>
             </section>
             <section class="who">
-                <h2>Who's using ActiveCollab?</h2>
-                <p>For more than 10 years, we've been trusted by over 200,000 people in companies ranging from small businesses to Fortune 500 members, universities and government institutions.</p>
-                <img src="" alt="">
+                <article>
+                    <h2>Who's using Active Collab?</h2>
+                    <p>For more than 10 years, we've been trusted by over 200,000 people in companies ranging from small businesses to Fortune 500 members, universities and government institutions.</p>
+                   <!-- <img src="img/who.jpg" alt="partner">--> 
+                </article>
             </section>
             <section class="start">
-                <h2>Get started with ActiveCollab</h2>
-                <p>Enter your email to get a month of ActiveCollab<br>absolutely free, without any limitations.</p>
+                <div>
+                    <h2>Get started with ActiveCollab</h2>
+                    <p>Enter your email to get a month of ActiveCollab<br>absolutely free, without any limitations.</p>
 
-                <form>
-                    <address>Enter your work email</address>
-                </form>
-                <button>Start my free month!</button>
-                <p>or</p>
-                <button>Sign up with Google</button>
-                <p>No credit card required · Unsubscribe at any time</p>
+                    <form>
+                        <label for="name">Your name or Organization</label><br>
+                        <input type="text" id="name"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email"><br>
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password"><br>
+                
+                        <button>Start my free month!</button>
+                        <p>Hope you'll enjoy it!</p>
+                    </form>
+                    <p>Your data is safe with us.<br>
+                        <a href="#">Active Collab security</a>
+                    </p>
+                </div>
             </section>
         </main>
         <footer>

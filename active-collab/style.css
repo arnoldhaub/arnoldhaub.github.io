@@ -1,0 +1,231 @@
+html {
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #202528;
+    width: 100%;
+}
+
+
+/* Menu */
+.menu{
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+menu p {
+    margin:0;
+    display: inline;
+    padding-left: 10px;
+}
+/* Gauche */
+.menu img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.menu-gauche{
+    display: 50%;
+
+}
+.menu-gauche p:last-child{
+    color:#8891a0;
+}
+
+/* Droite */
+
+.menu-droite {
+    display: 50%;
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+
+.menu-droite button{
+    height: 35px;
+    width: 100px;
+
+}
+.menu-droite button:last-child{
+    background-color: white;
+    color: #202528;
+}
+
+/* HEADER */
+
+header{
+    background-color: #e9edf2;
+    height: 250px;
+
+}
+header h1{
+    text-align: center;
+}
+
+/* INTRO */
+
+.intro {
+    background-color: #3f4655;
+    color: #7b808a;
+    border: #1f232a;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+}
+.intro h3 {
+    color: white;
+}
+.intro article{
+    flex: 25%;
+    padding: 10px;
+    border: 1px solid #202528;
+}
+
+/* TRY-IT */
+.try-it{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9edf2;
+
+    
+}
+.try-it article:first-child {
+    width: 50%;
+    font-size: larger;
+    text-align: center;
+    padding: 30px;
+    
+
+}
+.try-it button{
+    font-size: 90%;
+    height: 45px;
+    min-width: 200px;
+}
+
+.try-it p:last-child{
+    font-size: small;
+}
+
+/* DEMO */
+.try-it article:nth-child(2){
+    background: url("img/demo-fond.svg") repeat-x center;
+}
+
+.try-it img{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* CLOUD */
+
+.cloud {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.cloud article:nth-child(2) div{
+    width: 45%;
+    margin: auto;
+    display:inline-block;
+}
+
+.cloud article:nth-child(2) div h2{
+    margin: 0;
+}
+
+.cloud article:nth-child(2) div:first-child{
+    border-right: #dedede 1px solid;
+}
+
+
+.cloud article:nth-child(2) div p:last-child{
+    font-style: oblique;
+}
+
+
+/* WHO */
+.who {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 20px;
+    min-height: 300px;
+    background: url("img/who.jpg") bottom center no-repeat, #e9edf2;
+}
+.who article {
+    text-align: center;
+    width: 50%;
+}
+
+.who p{
+    font-size: larger;
+}
+
+.who img{
+    max-width: 100%;
+    
+}
+
+/* GET STARTED ! */
+
+.start {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.start div {
+    width: 50%;
+}
+form {
+    background: #e9edf2;
+    border: 1px solid #202528;
+    border-radius: 3px;
+    width: 60%;
+    text-align: left;
+    padding: 30px ;
+    margin: auto;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    border: #bcbcbc 1px solid;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bolder;
+}
+
+button{
+    background-color: #3093f7;
+    border: 1px solid #202528;
+    color: white;
+    border-radius: 5px;
+    height: 28px;
+    width: 150px;
+}
+
+
+footer h1{
+    color: #8e929b;
+}
+footer p{
+    color: #b0b5bf;
+}
+
+footer p:last-child{
+    color: #636975;
+}
