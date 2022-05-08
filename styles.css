@@ -37,7 +37,7 @@ h2 {
 
 	font-weight: lighter;
 	font-size: 90%;
-	width: 30%;
+	width: 50%;
 	margin: auto;
 	margin-bottom: 30px;
 	border-radius: 25px;
@@ -67,7 +67,7 @@ h2 {
 	color: #ffffff;
 	opacity: 0.85;
 	margin-top: 20px;
-	width: 45%;
+	width: 80%;
 	margin: 30px 0 30px 0;
 	margin: auto;
 	border-radius: 25px;
@@ -76,7 +76,7 @@ h2 {
 
 .part-two div{
 	padding: 30px;
-	text-align: justify;
+	text-align: center ;
 }
 
 .part-two h2{
