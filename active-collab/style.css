@@ -5,6 +5,14 @@ html {
     width: 100%;
 }
 
+button{
+    background-color: #3093f7;
+    border: 1px solid #202528;
+    color: white;
+    border-radius: 5px;
+    height: 28px;
+    width: 150px;
+}
 
 /* Menu */
 .menu{
@@ -189,7 +197,7 @@ header h1{
 }
 form {
     background: #e9edf2;
-    border: 1px solid #202528;
+    border: 1px solid #747678;
     border-radius: 3px;
     width: 60%;
     text-align: left;
@@ -200,32 +208,67 @@ form {
 input {
     width: 100%;
     height: 25px;
-    border: #bcbcbc 1px solid;
+    border: #7f7f7f 1px solid;
     border-radius: 3px;
     margin-bottom: 20px;
+    color: #757575;
 }
 
 label {
     font-weight: bolder;
 }
-
-button{
-    background-color: #3093f7;
-    border: 1px solid #202528;
-    color: white;
-    border-radius: 5px;
-    height: 28px;
-    width: 150px;
+.center {
+    text-align: center;
+    margin: auto;
 }
 
+.safe{
+    margin: 25px 0 50px 0;
+    color: #727c8e;
+    font-size: smaller;
+}
 
+.safe a{
+    color: #727c8e;
+}
+
+/* FOOTER */
+footer{
+    background-color: #3f4655;
+    color: #c8cace;
+}
+
+.footer{
+    display: flex;
+    align-content: center;
+}
+.footer article {
+    flex:none;
+    padding: 30px;
+    font-size: small;
+}
 footer h1{
-    color: #8e929b;
-}
-footer p{
-    color: #b0b5bf;
+    color: #8b9099;
 }
 
-footer p:last-child{
-    color: #636975;
+/* Social */
+
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    color: #92969f;
+    margin-top: 15px;
 }
+
+.social img{
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.social p{
+    margin-bottom: 40px;
+}
+
