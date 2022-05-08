@@ -19,6 +19,7 @@ button{
     display: flex;
     align-items: center;
     height: 100px;
+    flex-wrap: wrap;
 }
 menu p {
     margin:0;
@@ -79,13 +80,16 @@ header h1{
     align-items: center;
     
 }
+.intro article{
+    flex: 1;
+}
 .intro h3 {
     color: white;
 }
 .intro article{
     flex: 25%;
     padding: 10px;
-    border: 1px solid #202528;
+    border-right: 1px solid #202528;
 }
 
 /* TRY-IT */
@@ -241,11 +245,14 @@ footer{
 .footer{
     display: flex;
     align-content: center;
+    flex-wrap: wrap;
 }
 .footer article {
     flex:none;
     padding: 30px;
     font-size: small;
+    margin-left: auto;
+    margin-right: auto;
 }
 footer h1{
     color: #8b9099;
