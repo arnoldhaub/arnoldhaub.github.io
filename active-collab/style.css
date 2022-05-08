@@ -19,9 +19,9 @@ button{
     display: flex;
     align-items: center;
     height: 100px;
-    flex-wrap: wrap;
+
 }
-menu p {
+menu li {
     margin:0;
     display: inline;
     padding-left: 10px;
@@ -32,19 +32,20 @@ menu p {
     vertical-align: middle;
 }
 .menu-gauche{
-    display: 50%;
+    width: 50%;
 
 }
-.menu-gauche p:last-child{
+.menu-gauche li:last-child{
     color:#8891a0;
 }
 
 /* Droite */
 
 .menu-droite {
-    display: 50%;
-    margin-left: auto;
-    margin-right: 10px;
+    width: 50%;
+    margin-right: 40px;
+    text-align: right;
+
 
 }
 
@@ -53,7 +54,7 @@ menu p {
     width: 100px;
 
 }
-.menu-droite button:last-child{
+.sign{
     background-color: white;
     color: #202528;
 }
@@ -101,7 +102,8 @@ header h1{
 
     
 }
-.try-it article:first-child {
+.try-it div:nth-child(1) {
+    position: relative;
     width: 50%;
     font-size: larger;
     text-align: center;
@@ -120,7 +122,7 @@ header h1{
 }
 
 /* DEMO */
-.try-it article:nth-child(2){
+.try-it div:nth-child(2){
     background: url("img/demo-fond.svg") repeat-x center;
 }
 
@@ -143,22 +145,22 @@ header h1{
     margin-bottom: 40px;
 }
 
-.cloud article:nth-child(2) div{
+.cloud div:nth-child(2) div{
     width: 45%;
     margin: auto;
     display:inline-block;
 }
 
-.cloud article:nth-child(2) div h2{
+.cloud div:nth-child(2) div h2{
     margin: 0;
 }
 
-.cloud article:nth-child(2) div:first-child{
+.cloud div:nth-child(2) div:first-child{
     border-right: #dedede 1px solid;
 }
 
 
-.cloud article:nth-child(2) div p:last-child{
+.cloud div:nth-child(2) div p:last-child{
     font-style: oblique;
 }
 
@@ -254,8 +256,9 @@ footer{
     margin-left: auto;
     margin-right: auto;
 }
-footer h1{
+footer h2{
     color: #8b9099;
+    font-size: small;
 }
 
 /* Social */
