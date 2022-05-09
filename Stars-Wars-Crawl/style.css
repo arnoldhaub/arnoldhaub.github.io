@@ -3,7 +3,7 @@ body {
     height: 100%;
     overflow: hidden;
     background: url("background.jpg") #000;
-    color: blue;
+    color: yellow;
     text-align: center;
 
 }
@@ -13,7 +13,7 @@ body {
     height: 800px;
     perspective: 400px;
 
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 600;
     letter-spacing: 6px;
     line-height: 150%;
@@ -26,6 +26,12 @@ body {
     top: -100px;
     transform-origin: 50% 100%;
     animation: crawl 60s linear;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @keyframes crawl {
