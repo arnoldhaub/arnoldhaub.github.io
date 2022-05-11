@@ -6,7 +6,7 @@ body {
 	animation: gradient 15s ease infinite;
 	height: 100vh;
 	text-align: center;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto Flex', sans-serif;
 	justify-content: center;
 	padding: 80px 50px 50px 50px;
 	color:#FAFAFA;
@@ -81,6 +81,8 @@ h2 {
 
 .part-two h2{
 	text-align: center;
+	padding-bottom: 5px;
+	border-bottom: 1px solid goldenrod ;
 }
 /* p {} */
 	
@@ -109,5 +111,28 @@ ol, ul {
 }
 
 
+/************** RESPONSIVE *******************/
 
+@media only screen and (max-width: 768px){
+
+
+    .part-two{
+        width: 100%;
+    }
+	.part-two div{
+        padding: 15px;
+    }
+	.intro {
+		width: 80%;
+	}
+
+	body {
+		padding: 20px 5px 20px 5px;
+	}
+
+	footer {
+		padding-bottom: 20px;
+	}
+    
+  }
 
